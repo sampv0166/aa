@@ -1,0 +1,46 @@
+.img {
+  width: 320px;
+  height: 180px;
+  object-fit: contain;
+  padding: 0.75rem;
+}
+
+.result {
+  min-height: 100%;
+  max-height: auto;
+  width: 100%;
+  background-color: #f7f2f2;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+}
+
+.label {
+  height: 50px;
+  width: 150px;
+  background-color: #0c5c19;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.label-holder {
+  width: 100%;
+  height: 50px;
+}
+
+#file[type='file'] {
+  display: none;
+}
+.add-photo {
+  background-color: rgb(57, 165, 156);
+  font-size: 2rem;
+}
+
+
+.full-screen-modal {
+  max-width: 100%;
+}
